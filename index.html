@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <div class="form-container">
+      <h2>Φόρμα Κλείσιμου Ραντεβού</h2>
+      <form id="appointmentForm">
+        <label for="name">Όνομα και Επώνυμο:</label>
+        <input type="text" id="name" name="name" required>
+  
+        <label for="phone">Τηλέφωνο Επικοινωνίας:</label>
+        <input type="tel" id="phone" name="phone" placeholder="π.χ. 6981234567" required>
+  
+        <label for="address">Διεύθυνση Εγκατάστασης:</label>
+        <input type="text" id="address" name="address" required>
+  
+        <label for="date">Ημερομηνία Προτίμησης:</label>
+        <input type="date" id="date" name="date" required>
+  
+        <label for="time">Ώρα Προτίμησης:</label>
+        <input type="time" id="time" name="time" required>
+  
+        <label for="comments">Σχόλια ή Σημειώσεις:</label>
+        <textarea id="comments" name="comments" rows="4" placeholder="Προσθέστε επιπλέον πληροφορίες..."></textarea>
+  
+        <button type="submit">Υποβολή</button>
+      </form>
+    </div>
+  
+    <script src="./form.js"></script>
+  </body>
+</html>
